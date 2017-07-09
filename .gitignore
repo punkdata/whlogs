@@ -90,3 +90,4 @@ ENV/
 
 .vscode
 config.json
+.idea
