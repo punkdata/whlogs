@@ -100,7 +100,7 @@ def update_twitter_status():
     # Flag log as processed
     update_log_processed(log['_id'])
 
-schedule.every(45).minutes.do(update_twitter_status)
+schedule.every(6).minutes.do(update_twitter_status)
 while True:
     schedule.run_pending()
     time.sleep(1)
